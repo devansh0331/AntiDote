@@ -1,0 +1,166 @@
+
+.header-img{
+    height: 25rem;
+    
+    background: url('/src/img/homebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ 
+ }
+ 
+ .header-img span{
+     font-weight: 900;
+     font-size: 3rem;
+    
+     color:rgb(183, 181, 181);
+     color: rgb(0, 255, 183);
+     color: rgb(22, 22, 255);
+     color: white;
+     
+ }
+ 
+ .header-img button{
+     width: 10%;
+     border-radius:0.5rem ;
+     font-weight: 700;
+    
+     border: none;
+     /* background: linear-gradient(to right , rgb(34, 34, 255) , blue); */
+     background-color: #00838d;
+     padding: 0.4rem;
+     transition: 0.3s all ease-in-out;
+ }
+
+ .header-img button a{
+    color: white;
+ }
+ 
+ .header-img button:hover {
+     transform: scale(1.1);
+    
+     background: white;
+     
+ 
+ }
+
+ .header-img button:hover a {
+    color: white;
+    color: #00838d;
+ }
+ 
+
+
+ .about-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+.about-below-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-desc{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    text-align: justify;
+    width: 100%;
+
+}
+.span-head  > span {
+    font-size: 3rem;
+    /* margin-left: 1rem; */
+    margin: 2rem;
+    color: rgb(0, 0, 119);
+    color: #00838d;
+}
+
+.span-head  > p{
+    margin-left:2rem;
+    width: 80%;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.about-desc-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.about-img{
+
+    width: auto;
+}
+.about-img > img{
+    width: 25rem;
+    height: 25rem;
+    transition: 0.5s all ease-in-out;
+}
+
+.about-img > img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.aboutBtns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aboutBtns > button{
+    margin-top: 1rem;
+    margin-right:1rem ;
+    padding: 0.3rem;
+    border-radius:0.6rem;
+    background:#00838d ;
+    border: 3px solid #00838d;
+    transition: 0.3s all ease-in-out;
+
+}
+
+.aboutBtns > button > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+   
+    color: white;
+}
+
+.aboutBtns > button:hover{
+    background: white;
+}
+.aboutBtns > button:hover a{
+    color: #00838d;
+}
+
+
+.diseaseCard {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 0 auto;
+    justify-content:space-around ;
+    
+}
+.diseaseCard> div{
+    /* margin: 0 1rem; */
+}
+

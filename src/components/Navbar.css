@@ -1,0 +1,17 @@
+.nav-main{
+    background: #00838d;
+    color: white;
+}
+.nav-link{
+    color: white  !important;
+}
+
+.nav-link-signup:hover{
+    color: red !important;
+    text-decoration: underline !important;
+}
+
+.nav-link-login:hover{
+    color: blue !important;
+    text-decoration: underline !important;
+}
