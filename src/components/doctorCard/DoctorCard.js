@@ -1,5 +1,5 @@
 import React , {useEffect,useState} from 'react'
-import './DiseaseCard.css'
+import './DoctorCard.css'
 
 import {Link , useNavigate} from 'react-router-dom'
 
@@ -7,7 +7,7 @@ import {auth , fs} from '../../Config/Config'
 
 import Heart from "../../img/heartDisease.jpg"
 
-function DiseaseCard({ disease , doctors , href , diseaseImg} ) {
+function DoctorCard({ docName , degree, specialization , availability , fee , docImg} ) {
     const Navigate = useNavigate();
 
     const handleTrueUser = () => {
@@ -68,13 +68,17 @@ function DiseaseCard({ disease , doctors , href , diseaseImg} ) {
 
   return (
     <div className="cardContainer">
-        <img src={diseaseImg} alt=""/>
+        <img src={docImg} alt=""/>
       {!user && <><Link to="signup" className="card1" >
         
-    <h3>{disease}</h3>
-    <p className="small">Specialized Doctors: {doctors}</p>
-    <p className="small">No worries! We are here :)</p>
-    <p className="small">Just a Click!!!</p>
+    <h3>{docName}</h3>
+    <p className="small">Degree : <strong>{degree}</strong> </p>
+    <p className="small">Specialized : <strong>{specialization}</strong> </p>
+    <p className="small">Available : <strong>{availability}</strong> </p>
+    <p className="small">Fee : <strong>{fee}</strong> </p>
+    {/* <p className="small">No worries! We are here :)</p>
+    <p className="small">Just a Click!!!</p> */}
+    <button type=""><a href="">Book Appointment</a></button>
     <div className="go-corner" href="#">
       <div className="go-arrow">
         →
@@ -85,18 +89,23 @@ function DiseaseCard({ disease , doctors , href , diseaseImg} ) {
     
       {user && <> <Link to="admin" className="card1" >
         
-    <h3>Heart Disease</h3>
-    <p className="small">Specialized Doctors: x</p>
-    <p className="small">No worries! We are here :)</p>
-    <p className="small">Just a Click!!!</p>
+      <h3>{docName}</h3>
+    <p className="small">Degree : <strong>{degree}</strong> </p>
+    <p className="small">Specialized : <strong>{specialization}</strong> </p>
+    <p className="small">Available : <strong>{availability}</strong> </p>
+    <p className="small">Fee : <strong>{fee}</strong> </p>
+    {/* <p className="small">No worries! We are here :)</p>
+    <p className="small">Just a Click!!!</p> */}
+    <button type=""><a href="">Book Appointment</a></button>
     <div className="go-corner" href="#">
       <div className="go-arrow">
         →
       </div>
     </div>
+    {/* </div> */}
   </Link> </>}
     </div>
   )
 }
 
-export default DiseaseCard
+export default DoctorCard

@@ -6,9 +6,19 @@ import "./Home.css"
 
 //Card Import
 import DiseaseCard from "./diseaseCard/DiseaseCard.js"
+import DoctorCard from "./doctorCard/DoctorCard.js"
+import Footer from "./footer/Footer.js"
 
 //Image Import
 import Vaccine from "../img/capsule.png";
+import Heart from "../img/heartDisease.jpg"
+import Cancer from "../img/cancer.jpg"
+import Covid from "../img/covid.jpg"
+import Viral from "../img/viral.jpg"
+import Aids from "../img/aids.png"
+import Typhoid from "../img/typhoid.jpg"
+import DocMale from "../img/docMale.png"
+import DocFemale from "../img/docFemale.png"
 
 export const Home = () => {
 
@@ -85,32 +95,32 @@ export const Home = () => {
            
                   <div className="col-4 my-2">
                     
-                <DiseaseCard disease="Heart Disease" doctors="3"  href="admin"/>
+                <DiseaseCard disease="Heart Disease" doctors="3" diseaseImg={Heart}  href="admin"/>
                   </div>  
                
                     <div className="col-4 my-2">
                         
-                <DiseaseCard disease="Cancer" doctors="12"/>
+                <DiseaseCard disease="Cancer" doctors="12" diseaseImg={Cancer}/>
                     </div>
                <div className="col-4 my-2">
                 
                     
-                <DiseaseCard disease="Covid" doctors="7"/>
+                <DiseaseCard disease="Covid" doctors="7" diseaseImg={Covid}/>
                </div>
                <div className="col-4 my-2">
                 
                     
-                <DiseaseCard disease="Viral" doctors="4"/>
+                <DiseaseCard disease="Viral" doctors="4" diseaseImg={Viral}/>
                </div>
                <div className="col-4 my-2">
                 
                     
-                <DiseaseCard disease="AIDS" doctors="2"/>
+                <DiseaseCard disease="AIDS" doctors="2" diseaseImg={Aids}/>
                </div>
                <div className="col-4 my-2">
                 
                     
-                <DiseaseCard disease="Typhoid" doctors="5"/>
+                <DiseaseCard disease="Typhoid" doctors="5" diseaseImg={Typhoid}/>
                </div>
                
                </div>
@@ -118,10 +128,40 @@ export const Home = () => {
         </div>
       </section>
       <section id="appointment">
-      <div className=" span-head">
-            <span><strong>| Appointments : </strong> Connect with Our Doctors </span>
-
+      <div className=" span-head ">
+            <span id="appointmentHead"><strong>| Appointments : </strong> Connect with Our Doctors </span>
+            <div className="docCard row mx-2 ">
+             
+              <div className="col-4 my-2">
+                
+          <DoctorCard docImg={DocMale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
+              </div>
+              <div className="col-4 my-2">
+                
+          <DoctorCard docImg={DocFemale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
+              </div>
+              <div className="col-4 my-2">
+                
+          <DoctorCard docImg={DocMale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
+              </div>
+              <div className="col-4 my-2">
+                
+          <DoctorCard docImg={DocFemale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
+              </div>
+              <div className="col-4 my-2">
+                
+          <DoctorCard docImg={DocMale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
+              </div>
+              <div className="col-4 my-2">
+                
+          <DoctorCard docImg={DocFemale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
+              </div>
+              </div>
             </div>
+      </section>
+
+      <section>
+        <Footer/>
       </section>
         </>
     )
