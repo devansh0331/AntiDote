@@ -7,7 +7,9 @@ import {auth , fs} from '../../Config/Config'
 
 import Heart from "../../img/heartDisease.jpg"
 
-function DiseaseCard({ disease , doctors , href , diseaseImg} ) {
+import DiseasePage from "../diseasePage"
+
+function DiseaseCard({ disease , doctors , href , diseaseImg , pageImport} ) {
     const Navigate = useNavigate();
 
     const handleTrueUser = () => {
@@ -83,10 +85,10 @@ function DiseaseCard({ disease , doctors , href , diseaseImg} ) {
   </Link></>}
     
     
-      {user && <> <Link to="admin" className="card1" >
+      {user && <> <Link to={pageImport}  className="card1" >
         
-    <h3>Heart Disease</h3>
-    <p className="small">Specialized Doctors: x</p>
+    <h3>{disease}</h3>
+    <p className="small">Specialized Doctors: {doctors}</p>
     <p className="small">No worries! We are here :)</p>
     <p className="small">Just a Click!!!</p>
     <div className="go-corner" href="#">

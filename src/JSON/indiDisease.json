@@ -1,0 +1,300 @@
+{ "heart" :   {
+    "disease" : "Heart",
+    "doctors" : 5,
+    "content" : "Heart disease, also known as cardiovascular disease, refers to a group of conditions that affect the heart and blood vessels, leading to various health problems. These conditions can include coronary artery disease, heart valve disease, arrhythmias, heart failure, and congenital heart defects, among others. Heart disease can develop due to several factors, including lifestyle choices, genetic factors, and underlying medical conditions such as high blood pressure, diabetes, and high cholesterol. It is a leading cause of death worldwide and requires prompt medical attention to manage its symptoms and prevent complications.",
+    "diseaseImgURL" : "https://cdn.pixabay.com/photo/2012/11/21/16/31/heart-66888_960_720.jpg",
+    "page" : "diseasepage",
+
+    "docs" : [
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "heart",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "heart",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "heart",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "heart",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "heart",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    
+        ,
+        {
+            "docName" : "Dr. Devdeep Goyal",
+            "degree" : "MBBS",
+            "specialization" : "heart",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    
+    
+    ]
+
+
+},
+ "cancer" :   {
+    "disease" : "Cancer",
+    "doctors" : 8,
+    "diseaseImg" : "https://cdn.pixabay.com/photo/2018/12/15/10/55/mitosis-3876669__340.jpg",
+    "content" : "Cancer is a group of diseases characterized by the abnormal growth and spread of cells in the body. These cells can form tumors, invade nearby tissues, and spread to other parts of the body through the bloodstream or lymphatic system. There are many types of cancer, each with its own set of symptoms and treatment options. Cancer can occur in any part of the body and can affect people of all ages. Early detection and treatment are important for managing the disease and improving outcomes.",
+    "symptoms" : "Persistent Fatigue, Unexplained Weight Loss, Changes in the Skin, Persistent Pain, Changes in Bowel or Bladder Habits",
+    "page" : "cancerdiseasepage",
+    "docs" : [
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    
+        ,
+        {
+            "docName" : "Dr. Devdeep Goyal",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+        ,
+        {
+            "docName" : "Dr. Devdeep Goyal",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+        ,
+        {
+            "docName" : "Dr. Devdeep Goyal",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    
+    
+    ]
+
+},
+ "covid" :   {
+    "disease" : "Covid",
+    "doctors" : 3,
+    "diseaseImg" : "https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553__340.jpg",
+    "content" : "COVID-19 is a highly contagious ,respiratory illness caused by the novel coronavirus, SARS-CoV-2. The disease was first identified in Wuhan, China, in December 2019 and has since spread globally, leading to a pandemic. COVID-19 can cause a range of symptoms, from mild to severe, including fever, cough, and difficulty breathing. It spreads primarily through respiratory droplets produced when an infected person talks, coughs, or sneezes. There is currently no specific treatment for COVID-19, but vaccines and preventive measures, such as wearing masks, social distancing, and hand hygiene, are effective in reducing the spread of the virus.",
+    "symptoms" : "Fever, Cough, Shortness of breath, Fatigue, Loss of taste or smell",
+    "page" : "coviddiseasepage",
+    "docs" : [
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Cancer",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }]
+
+},
+
+ "viral" :   {
+    "disease" : "Viral",
+    "doctors" : 3,
+    "content" : "Viral meningitis (when meningitis is caused by a virus) is the most common type of meningitis. Most people get better on their own without treatment. However, anyone with symptoms of meningitis should see a doctor right away because any type of meningitis can be serious. Only a doctor can determine if someone has meningitis, what is causing it, and the best treatment. Babies younger than 1 month old and people with weakened immune systems are more likely to have severe illness from viral meningitis.",
+    "symptoms" : "Fever, Irritability, Poor eating, Lethargy, Headache",
+    "page" : "viraldiseasepage",
+    "diseaseImg" : "https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092__340.jpg",
+    "docs" : [
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Viral",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Viral",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }, {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Viral",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    ]
+},
+
+ "aids" :   {
+    "disease" : "Aids",
+    "doctors" : 2,
+    "diseaseImg" : "https://cdn.pixabay.com/photo/2016/12/13/06/16/hiv-1903373__340.jpg",
+    "content" : "HIV stands for human immunodeficiency virus. It weakens a person's immune system by destroying important cells that fight disease and infection. There is currently no effective cure for HIV. But with proper medical care, HIV can be controlled. Some groups of people in the United States are more likely to get HIV than others because of many factors, including their sex partners and risk behaviors. This section will give you basic information about HIV, such as how it's transmitted, how you can prevent it, and how to get tested for HIV. ",
+    "symptoms" : "Fever, Headache, Rash, Sore throat and painful mouth sores, Weight loss",
+    "page" : "aidsdiseasepage",
+    "docs" : [
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Viral",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Viral",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    ] 
+},
+
+ "typhoid" :   {
+    "disease" : "Typhoid",
+    "doctors" : 3,
+    "page" : "typhoiddiseasepage",
+    "content" : "Typhoid, also known as typhoid fever, is a bacterial infection caused by the bacterium Salmonella Typhi.",
+    "symptoms" : "Weakness, Stomach pain, Headache, Diarrhea or constipation, Cough",
+    "diseaseImg" : "https://cdn.pixabay.com/photo/2020/05/15/18/46/coronavirus-5174671__340.jpg",
+    "docs" : [
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Typhoid",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        },
+        {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Typhoid",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }, {
+            "docName" : "Dr. Devansh Shrivastava",
+            "degree" : "MBBS",
+            "specialization" : "Typhoid",
+            "availability" : "Every Day",
+            "fee" : "Rs.500/-",
+            "docImg" : "https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771__340.png"
+    
+        }
+    ]
+}
+}

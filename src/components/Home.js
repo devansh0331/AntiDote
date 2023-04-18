@@ -19,8 +19,16 @@ import Aids from "../img/aids.png"
 import Typhoid from "../img/typhoid.jpg"
 import DocMale from "../img/docMale.png"
 import DocFemale from "../img/docFemale.png"
+import Logo from "../img/AntiDoteLogo.png"
+
+//JSON Import
+import disease from "../JSON/diseases.json"
+import docs from "../JSON/doctors.json"
 
 export const Home = () => {
+  // const [diseaseList , setDiseaseList] = useState([])
+  // setDiseaseList({})
+  // let data = require
 
     function GetCurrentUser() {
         const [user , setUser] = useState(null)
@@ -91,38 +99,15 @@ export const Home = () => {
       <section id="explore">
       <div className="about-desc-content span-head">
             <span><strong>| Explore : </strong> Our Availabilities </span>
-            <div className="diseaseCard row mx-2 ">
            
-                  <div className="col-4 my-2">
-                    
-                <DiseaseCard disease="Heart Disease" doctors="3" diseaseImg={Heart}  href="admin"/>
-                  </div>  
-               
-                    <div className="col-4 my-2">
-                        
-                <DiseaseCard disease="Cancer" doctors="12" diseaseImg={Cancer}/>
-                    </div>
-               <div className="col-4 my-2">
+
+               <div className="diseaseCard row mx-2">
+                {disease.map((item , key) => {
+                  return <div key={key} className="col-4 my-2">
+                      <DiseaseCard pageImport={item.page} disease={item.disease} doctors={item.doctors} diseaseImg={item.diseaseImg}/> 
+                  </div>
+                })}
                 
-                    
-                <DiseaseCard disease="Covid" doctors="7" diseaseImg={Covid}/>
-               </div>
-               <div className="col-4 my-2">
-                
-                    
-                <DiseaseCard disease="Viral" doctors="4" diseaseImg={Viral}/>
-               </div>
-               <div className="col-4 my-2">
-                
-                    
-                <DiseaseCard disease="AIDS" doctors="2" diseaseImg={Aids}/>
-               </div>
-               <div className="col-4 my-2">
-                
-                    
-                <DiseaseCard disease="Typhoid" doctors="5" diseaseImg={Typhoid}/>
-               </div>
-               
                </div>
             
         </div>
@@ -130,33 +115,16 @@ export const Home = () => {
       <section id="appointment">
       <div className=" span-head ">
             <span id="appointmentHead"><strong>| Appointments : </strong> Connect with Our Doctors </span>
-            <div className="docCard row mx-2 ">
-             
-              <div className="col-4 my-2">
-                
-          <DoctorCard docImg={DocMale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
-              </div>
-              <div className="col-4 my-2">
-                
-          <DoctorCard docImg={DocFemale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
-              </div>
-              <div className="col-4 my-2">
-                
-          <DoctorCard docImg={DocMale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
-              </div>
-              <div className="col-4 my-2">
-                
-          <DoctorCard docImg={DocFemale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
-              </div>
-              <div className="col-4 my-2">
-                
-          <DoctorCard docImg={DocMale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
-              </div>
-              <div className="col-4 my-2">
-                
-          <DoctorCard docImg={DocFemale} docName="Dr. Devansh Shrivastava" degree="MBBS" specialization="Heart , Viral" fee="Rs. 500" availability="Every Day"/>
-              </div>
-              </div>
+           
+
+              <div className="docCard row mx-2 ">
+                  {docs.map((item , key) => {
+                    return <div className="col-4 my-2">
+                           <DoctorCard docImg={item.docImg} docName={item.docName} degree={item.degree} specialization={item.specialization} fee={item.fee} availability={item.availability}/>
+                      </div>
+                  })}
+                </div>
+
             </div>
       </section>
 

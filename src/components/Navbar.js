@@ -5,6 +5,7 @@ import {Link , useNavigate} from 'react-router-dom'
 // import logo from '../Images/logo.png'
 import {auth} from '../Config/Config'
 import './Navbar.css'
+import Logo from "../img/AntiDoteLogo.png"
 
 
 export const Navbar = ({user}) => {
@@ -23,8 +24,10 @@ export const Navbar = ({user}) => {
       
             <div className='navbar nav-main'>
              <div className='leftside'>
-                <div className='logo'>
-                    <span> <strong>AntiDote</strong> </span>
+                <div className='logo mylogo'>
+                    {/* <span> <strong>AntiDote</strong> </span> */}
+                    <span><a href="/"> <img src={Logo}  alt=""/> </a></span>
+                    <span> <strong>AntiDote</strong></span>
                 </div>
             </div>
 

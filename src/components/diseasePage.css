@@ -1,0 +1,47 @@
+.diseasePage{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.diseasePage > img{
+    width: 500px;
+    height: 400px;
+
+
+}
+
+.diseasePageContent{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+
+    flex-direction: column;
+    width: 50%;
+    
+    margin-right: 3rem;
+}
+
+.diseasePageContent >  h1{
+    font-size: 3rem;
+}
+
+.diseasePageContent > p{
+    color: black;
+    text-align: justify;
+}
+
+.diseasePageDoctors{
+    margin-left: 3rem;
+}
+
+.docCard{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 3rem auto;
+    margin-top: 5rem;
+    justify-content:space-around ;
+}

@@ -49,7 +49,7 @@ h3 {
     font-family: courier, sans;
   }
   
-  .card1 {
+  .card1 > {
     display: block;
     position: relative;
     max-width: 262px;
@@ -60,12 +60,19 @@ h3 {
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
+    height: 200px;
   }
 
   div img{
     height: 210px;
     border-radius: 5px;
     width: 170px;
+  }
+
+  .cardContainer > img{
+    height: 200px;
+    border-radius: 5px;
+    width: 200px;
   }
 
   .card1:before {

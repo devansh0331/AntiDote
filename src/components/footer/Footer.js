@@ -50,7 +50,7 @@ function Footer() {
 			<div className="footer-right">
 
 				<p className="footer-company-about">
-					<span>About the company</span>
+					<span>AntiDote - Close to You</span>
 					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
 				</p>
 
